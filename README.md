@@ -111,7 +111,6 @@ class Game:
                         py = j
                     self.current_state[i][j] = '.'
 
-                    # Next two ifs in Max and Min are the only difference between regular algorithm and minimax
                     if maxv >= beta:
                         return (maxv, px, py)
 
